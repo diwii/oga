@@ -15,8 +15,9 @@
                     <div class="productWrapper">
                         <div class="imageWrapper">
                             <div class="buttonContainer">
-                                <button class="button button-info">i</button>
-                                <button class="button button-add">+</button>
+                                <a href="{{route('products')}}/{{$product['slug']}}" class="button button-info">i</a>
+                                {{-- <button class="button button-info">i</button> --}}
+                                {{-- <button class="button button-add">+</button> --}}
                             </div>
                             <img src="{{ asset('storage/images/'.$product['image']['url']) }}"
                                     alt="{{ $product['image']['alt'] }}"

@@ -121,7 +121,8 @@
         width: 45vw;
     }
     #productPage section .buttonContainer .button {
-        font-size: 1.5rem;
+        font-size: 1rem;
+        /* font-size: 1.5rem; */
     }
     #productPage section .buttonContainer .button.button-info {
         padding: 0 0.8rem;

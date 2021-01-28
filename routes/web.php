@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\ProductController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -24,6 +26,8 @@ Route::get('/par-mums', function () {
 Route::get('/darinajumi', function () {
     return view('products');
 })->name('products');
+
+Route::get('/darinajumi/{product:slug}', [ProductController::class, 'index']);
 
 Route::get('/receptes', function () {
     return view('recipes');

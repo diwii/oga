@@ -22,7 +22,7 @@ class IndexComposer
     public function __construct()
     {
         $this->page['title'] = 'Sākums';
-        $this->document['title'] = 'Augstas kvalitātes ogu produkcijas ražošana';
+        $this->document['title'] = 'Augstvērtīgu produktu gatavošana';
         $this->document['image']['url'] = asset('/storage/images/home/homeMainImage.jpeg');
         $this->document['image']['title'] = 'Uzņēmuma produkcija.';
         $this->document['image']['alt'] = 'Uzņēmuma produkcija: pastilas, sīrupu pudelītes tautiskā noskaņojumā.';

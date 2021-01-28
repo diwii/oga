@@ -33,6 +33,7 @@ h2 {
 }
 h2.categoryTitle {
     padding: 0.5rem;
+    padding-right: 0;
 }
 h3 {
     font-size: 1rem;
@@ -230,6 +231,10 @@ textarea {
 #homePage section {
     margin-top: 0.5rem;
 }
+#homePage .contentWrapper {
+    display: flex;
+    justify-content: space-around;
+}
 /* singlePage Section */
 #singlePage section {
     margin: 0.5rem auto 0.5rem auto;
@@ -253,6 +258,14 @@ textarea {
 }
 #recipesPage p:last-child {
     padding-bottom: 0.5rem;
+}
+/* Single Product Page */
+#singleProductPage .contentWrapper {
+    margin: 0.5rem;
+}
+
+#singleProductPage .split .imageWrapper img {
+    object-fit: scale-down;
 }
 /* contacts Section */
 #contactsPage section input,

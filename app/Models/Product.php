@@ -18,7 +18,11 @@ class Product extends Model
     protected $fillable = [
         'title',
         'price',
-        'currency'
+        'currency',
+        'description',
+        'volume',
+        'volumeUnit',
+        'slug'
     ];
 
     /**
@@ -27,8 +31,28 @@ class Product extends Model
      * @var array
      */
     protected $attributes = [
-        'currency' => 'eur'
+        'currency' => 'eur',
+        'description' => '',
+        'volume' => '',
+        'volumeUnit' => ''
     ];
+
+    /**
+     * The relationships that should always be loaded.
+     *
+     * @var array
+     */
+    protected $with = ['image'];
+
+    /**
+     * Get the route key for the model.
+     *
+     * @return string
+     */
+    public function getRouteKeyName()
+    {
+        return 'slug';
+    }
 
     /**
      * Get the category that owns the product.
