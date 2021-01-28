@@ -23,7 +23,7 @@
                                     title="{{ $product['image']['title'] }}"/>
                         </div>
                         <h2>{{$product['title']}}</h2>
-                        <p>{{$product['price']}} &euro;</p>
+                        <p>{{number_format($product['price'], 2, '.', '')}} &euro;</p>
                     </div>
                     @endforeach
                 </div>
