@@ -50,16 +50,10 @@ class AboutComposer
                 // 'title' => 'Ogu audzēšana',
                 // 'targetUrl' => '/',
                 'content' => [
-                    'Uzņēmums SIA “Oga” nodarbojas ar mājražošanu – audzē smiltsērkšķus, avenes, upenes, zemenes u.c. ogas un augļus,
+                    'Piemājas saimniecība "Viksieni" nodarbojas ar mājražošanu – audzē smiltsērkšķus, avenes, upenes, zemenes u.c. ogas un augļus,
                     kurus pārstrādā un iegūst sīrupus, sulas, pastilas  u.c. izstrādājumus.
                     Uzņēmums piedāvā iespēju apciemot saimniecību un iepazīties ar ražošanas procesu,
-                    kā arī apskatīt ogu un augļu dārzus. SIA “ Oga” piedāvā savu produktu degustācijas.',
-
-                    'SIA “Oga” ir nepieciešama mājaslapa, lai popularizētu sevis gatavotos, veselīgos produktus,
-                    lai klients varētu piedāvājumu un jaunākās aktualitātes apskatīt sev ērtā laikā un vietā.
-                    Saistībā ar pavasarī izsludinātajiem ierobežojumiem valstī, uzņēmums nespēja pilnvērtīgi funkcionēt,
-                    jo tika apturēta izbraukumu tirdzniecība. Mājaslapas esamība nodrošina tirdzniecību internetā,
-                    kā arī jaunu klientu piesaisti. Tā nodrošina arī produkcijas atpazīstamību.',
+                    kā arī apskatīt ogu un augļu dārzus. Saimniecība "Viksieni" piedāvā savu produktu degustācijas.'
                 ],
                 // 'image' => [
                 //     'url' => asset('storage/images/home/ogas.jpeg'),
