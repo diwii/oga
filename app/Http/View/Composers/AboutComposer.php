@@ -50,7 +50,7 @@ class AboutComposer
                 // 'title' => 'Ogu audzēšana',
                 // 'targetUrl' => '/',
                 'content' => [
-                    'Piemājas saimniecība "Viksieni" nodarbojas ar mājražošanu – audzē smiltsērkšķus, avenes, upenes, zemenes u.c. ogas un augļus,
+                    'Piemājas saimniecība "Viksieni", kurā saimnieko Maija un Raimonds Simanoviči, nodarbojas ar mājražošanu – audzē smiltsērkšķus, avenes, upenes, zemenes u.c. ogas un augļus,
                     kurus pārstrādā un iegūst sīrupus, sulas, pastilas  u.c. izstrādājumus.
                     Uzņēmums piedāvā iespēju apciemot saimniecību un iepazīties ar ražošanas procesu,
                     kā arī apskatīt ogu un augļu dārzus. Saimniecība "Viksieni" piedāvā savu produktu degustācijas.'
