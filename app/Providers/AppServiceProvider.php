@@ -10,6 +10,7 @@ use App\Http\View\Composers\AboutComposer;
 use App\Http\View\Composers\ProductsComposer;
 use App\Http\View\Composers\RecipesComposer;
 use App\Http\View\Composers\ContactsComposer;
+use App\Http\View\Composers\DownloadProductsComposer;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -38,5 +39,6 @@ class AppServiceProvider extends ServiceProvider
         View::composer('products', ProductsComposer::class);
         View::composer('recipes', RecipesComposer::class);
         View::composer('contacts', ContactsComposer::class);
+        View::composer('download-products', DownloadProductsComposer::class);
     }
 }

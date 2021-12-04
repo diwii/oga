@@ -27,6 +27,10 @@ Route::get('/darinajumi', function () {
     return view('products');
 })->name('products');
 
+Route::get('/sortiments', function () {
+    return view('download-products');
+})->name('download-products');
+
 Route::get('/darinajumi/{product:slug}', [ProductController::class, 'index']);
 
 Route::get('/receptes', function () {

@@ -10,7 +10,8 @@
                         <p>Zvanīt</p>
                         <p>+371 26437844</p>
                     </a>
-                    <a href="{{route('products')}}" id="produkcija" class="button">Produkcija</a>
+                    <a href="{{route('download-products')}}" id="produkcija" class="button">Lejupielādēt sortimentu</a>
+                    {{-- <a href="{{route('products')}}" id="produkcija" class="button">Produkcija</a> --}}
                 </div>
             </div>
             <x-img src="{{$document['image']['url']}}"

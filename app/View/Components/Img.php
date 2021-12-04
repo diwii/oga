@@ -41,8 +41,10 @@ class Img extends Component
         // Take string that follows "storage" string
         $storagePath = substr($alteredPath, $pos+strlen('storage'));
         // Check if file exists in storage
-        if (Storage::exists('public/'.$storagePath)) return $alteredPath.' '.$size.'w';
+        // if (Storage::exists('public/'.$storagePath)) return $alteredPath.' '.$size.'w';
+        if (Storage::exists('public/'.$storagePath)) return $alteredPath;
         // If not exists, return default size.
-        return $this->attributes['src'].' '.$size.'w';
+        // return $this->attributes['src'].' '.$size.'w';
+        return $this->attributes['src'];
     }
 }
